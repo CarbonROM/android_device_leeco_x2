@@ -19,10 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/leeco/x2/device.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common stuff.
+$(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_x2
+PRODUCT_NAME := broken_x2
+BOARD_VENDOR := leeco
+TARGET_VENDOR := leeco
 PRODUCT_DEVICE := x2
 PRODUCT_MANUFACTURER := LeMobile
 PRODUCT_BRAND := LeEco
@@ -38,5 +40,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="le_x2_na-user 6.0.1 FIXNAOP5801607182S eng.letv.20160718.140847 release-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
-
-TARGET_VENDOR := leeco
