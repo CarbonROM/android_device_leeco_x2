@@ -141,3 +141,11 @@ service qfp-daemon /vendor/bin/qfp-daemon
 
 on property:init.svc.bootanim=running
     write /sys/class/leds/wled/brightness 122
+    group system drmrpc diag input
+
+# autofocus fix
+on property:persist.camera.focus_fix=1
+    write /sys/module/msm_actuator/parameters/use_focus_fix 1
+
+on property:persist.camera.focus_fix=0
+    write /sys/module/msm_actuator/parameters/use_focus_fix 0

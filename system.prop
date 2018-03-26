@@ -40,3 +40,6 @@ persist.qfp.eeprom=/sys/bus/i2c/devices/8-0051/eeprom
 
 # Radio
 persist.radio.multisim.config=dsds
+
+# Focus Fix
+persist.camera.focus_fix=0 
