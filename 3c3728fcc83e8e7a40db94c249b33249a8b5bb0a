@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 416BE7F1D754EF73 1527936544 +0000\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_leeco_x2\nnonce 1527936564-7EF26B0EA775DEB436359FF782471AB9D2A1B438\n\n0000000000000000000000000000000000000000 3c3728fcc83e8e7a40db94c249b33249a8b5bb0a refs/for/cr-6.1\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQEcBAABAgAGBQJbEnYgAAoJEEFr5/HXVO9zXTgIALzpHT5KWEpxbDEi72DLunZL\nYAgtHCxw4VWZWldf5Zrkf8jKRyzcY3gWFDhjX8zQfmmgI/6/Y0TYluQZj1W9LWfl\n7muSFRWpgSjpxk9RNw9SWByPWz1Am5akr3YMvfsn6y1sLhvB/z0T0rQ5y3GemuFm\n+e1GnwooVjf30z9dRztWsWbyFwpu+SLvuh5xluC6eVYVhQ2s4f+viKRbZvo6SMxe\n4lqkmigbvlBXq5cXYa3n0JXlNWvY5nUMQRsHBHicqzGp9nPvFA0vhpOYLdnXbugN\nfHRmKiZxycfGe0zNscb1uRGPYRtHyO1P+CqlR3RhJOZkoxw3y99A60Af2x08Y7k\u003d\n\u003d/E03\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
