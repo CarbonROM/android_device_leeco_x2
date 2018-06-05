@@ -41,5 +41,5 @@ BUILD_FINGERPRINT := LeEco/LeMax2_WW/le_x2:6.0.1/FKXOSOP5801910311S/letv10310125
 TARGET_VENDOR := leeco
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carbon.maintainer="Chityanj Sharma" 
+    ro.carbon.maintainer="Chityanj"
 
